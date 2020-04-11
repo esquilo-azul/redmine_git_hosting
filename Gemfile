@@ -42,7 +42,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails', '< 5.0'
 
-  gem 'rubocop', require: false
+  # gem 'rubocop', require: false # Already in core Gemfile
   gem 'rubocop-rspec'
 
   # Publish to CodeClimate
