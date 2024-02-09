@@ -32,7 +32,7 @@ gem 'sshkey'
 
 group :development, :test do
   gem 'rspec'
-  gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  # gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
   gem 'rails-controller-testing'
 
   gem 'shoulda', '~> 3.5.0'
@@ -40,10 +40,10 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 2.7.0'
 
   gem 'database_cleaner'
-  gem 'factory_bot_rails', '< 5.0'
+  # gem 'factory_bot_rails', '< 5.0'
 
   # gem 'rubocop', require: false # Already in core Gemfile
-  gem 'rubocop-rspec'
+  # gem 'rubocop-rspec'
 
   # Publish to CodeClimate
   gem 'codeclimate-test-reporter', require: false
